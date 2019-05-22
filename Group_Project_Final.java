@@ -63,7 +63,7 @@ public class Group_Project_Final
 
 		Scanner sc = new Scanner(System.in);
 		
-			
+		int twoDimArray[][];	
 		int [] columnOne = {twoDimArray[0][1], twoDimArray[1][1], twoDimArray[2][1]};
 		int [] columnTwo = {twoDimArray[0][2], twoDimArray[1][2], twoDimArray[2][2]};
 		int [] columnThree = {twoDimArray[0][3], twoDimArray[1][3], twoDimArray[2][3]};
@@ -72,7 +72,7 @@ public class Group_Project_Final
 		int [] rowThree = {twoDimArray[2][1], twoDimArray[2][2], twoDimArray[2][3]};
 		int [] diagonalOne = {twoDimArray[2][1], twoDimArray[1][2], twoDimArray[0][3]};
 		int [] diagonalTwo = {twoDimArray[2][3], twoDimArray[1][2], twoDimArray[0][1]};
-		int twoDimArray[][] = {
+			twoDimArray[][] = {
 			{0, 1, 2, 3, SumOfArray(rowOne)},
 			{0, 4, 5, 6, SumOfArray(rowTwo)},
 			{0, 7, 8, 9, SumOfArray(rowThree)},
